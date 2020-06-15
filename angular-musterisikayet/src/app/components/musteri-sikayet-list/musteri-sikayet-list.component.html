@@ -1,0 +1,49 @@
+<table border="1">
+    <thead>
+      <tr>
+        <th>Şikayetin Açılma Tarihi</th>
+        <th>Lot Numarası</th>
+        <th>Satılan Miktar</th>
+        <th>Şikayet Edilen Miktar</th>
+        <th>Miktar Birimi</th>
+        <th>Şikayet Açıklaması</th>
+        <th>Müşteri Talebi</th>
+        <th>İlgili Birimin Yanıtı</th>
+        <th>İlgili Birim Yanıt Tarihi</th>
+        <th>İlgili Birim Karar</th>
+        <th>DF Gerekliliği</th>
+        <th>Satış Birimi Yanıtı</th>
+        <th>Satış Birimi Karar Tarihi</th>
+        <th>Satış Birimi Karar</th>
+        <th>Müşteriye Verilen Yanıt</th>
+        <th>Müşteri Karar</th>
+        <th>Müşteriye Verilen Yanıt Tarihi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let musteriSikayet of musteriSikayets">
+        <td>{{musteriSikayet.acmaTarih}}</td>
+        <td>{{musteriSikayet.lotNumarasi}}</td>
+        <td>{{musteriSikayet.satilanMiktar}}</td>
+        <td>{{musteriSikayet.sikayetEdilenMiktar}}</td>
+        <td>{{musteriSikayet.miktarBirim}}</td>
+        <td>{{musteriSikayet.sikayetAciklamasi}}</td>
+        <td>{{musteriSikayet.musteriTalebi}}</td>
+        <td>{{musteriSikayet.ilgiliBirimYaniti}}</td>
+        <td>{{musteriSikayet.ilgiliBirimYanitTarihi}}</td>
+        <td>{{musteriSikayet.ilgiliBirimKarar}}</td>
+        <td>{{musteriSikayet.dfGerekliligi}}</td>
+        <td>{{musteriSikayet.satisBirimYaniti}}</td>
+        <td>{{musteriSikayet.satisBirimKararTarihi}}</td>
+        <td>{{musteriSikayet.satisBirimiKarar}}</td>
+        <td>{{musteriSikayet.musteriyeVerilenYanit}}</td>
+        <td>{{musteriSikayet.musteriKarar}}</td>
+        <td>{{musteriSikayet.musteriyeVerilenYanitTarihi}}</td>
+  
+  
+  
+      </tr>
+    </tbody>
+  
+  
+  </table>

@@ -60,7 +60,7 @@ public class MusteriSikayet {
 	private boolean satisBirimiKarar;
 	
 	@Column(name="musteriye_verilen_yanit")
-	private String musteriyeVerilen_yanit;
+	private String musteriyeVerilenYanit;
 	
 	@Column(name="musteri_karar")
 	private boolean musteriKarar;
@@ -208,12 +208,12 @@ public class MusteriSikayet {
 		this.satisBirimiKarar = satisBirimiKarar;
 	}
 
-	public String getMusteriyeVerilen_yanit() {
-		return musteriyeVerilen_yanit;
+	public String getMusteriyeVerilenYanit() {
+		return musteriyeVerilenYanit;
 	}
 
-	public void setMusteriyeVerilen_yanit(String musteriyeVerilen_yanit) {
-		this.musteriyeVerilen_yanit = musteriyeVerilen_yanit;
+	public void setMusteriyeVerilenYanit(String musteriyeVerilen_yanit) {
+		this.musteriyeVerilenYanit = musteriyeVerilen_yanit;
 	}
 
 	public boolean isMusteriKarar() {
@@ -296,7 +296,7 @@ public class MusteriSikayet {
 				+ ", ilgiliBirimYaniti=" + ilgiliBirimYaniti + ", ilgiliBirimYanitTarihi=" + ilgiliBirimYanitTarihi
 				+ ", dfGerekliligi=" + dfGerekliligi + ", satisBirimYaniti=" + satisBirimYaniti
 				+ ", satisBirimKararTarihi=" + satisBirimKararTarihi + ", ilgiliBirimKarar=" + ilgiliBirimKarar
-				+ ", satisBirimiKarar=" + satisBirimiKarar + ", musteriyeVerilen_yanit=" + musteriyeVerilen_yanit
+				+ ", satisBirimiKarar=" + satisBirimiKarar + ", musteriyeVerilen_yanit=" + musteriyeVerilenYanit
 				+ ", musteriKarar=" + musteriKarar + ", musteriyeVerilenYanitTarihi=" + musteriyeVerilenYanitTarihi
 				+ ", miktarBirim=" + miktarBirim + ", sikayetAcan=" + sikayetAcan + ", birimSorumlusu=" + birimSorumlusu
 				+ ", satisMuduru=" + satisMuduru + ", musteri=" + musteri + ", sikayetTur=" + sikayetTur + ", urun="
